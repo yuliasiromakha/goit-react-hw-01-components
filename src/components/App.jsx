@@ -14,6 +14,7 @@ export const App = () => {
 
   return (
     <>
+    <div>
       <div
         style={{
           height: '100vh',
@@ -31,15 +32,19 @@ export const App = () => {
           avatar={avatar}
           stats={stats}
         />
-         
-        <Statistics title="Upload stats" data={data} />
-
-        <FriendList friends={friends} />
-        
-        <TransactionHistory items={transactions} />;
 
       </div>
-
+      <div>
+      <Statistics title="Upload stats" data={data} />
+      </div>
+      <div>
+      <FriendList friends={friends} />
+      </div>
+      <div>
+      <TransactionHistory items={transactions} />;
+      </div>
+    
+      </div>
     </>
   );
 };
