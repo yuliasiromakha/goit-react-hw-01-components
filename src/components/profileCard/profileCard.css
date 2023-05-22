@@ -11,11 +11,6 @@ ul {
    width: 450px;
 }
 
-.description {
-    /* padding-left: 110px;
-    padding-right: 110px; */
-}
-
 .stats {
 
     background-color: lavender;
@@ -62,10 +57,6 @@ ul {
     letter-spacing: 0.04em;
 }
 
-/* .location {
-    margin-bottom: 50px;
-} */
-
 .stats {
     display: flex;
     justify-content: center;
@@ -84,12 +75,4 @@ border-bottom-right-radius: 1%;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-
-    
 }
-
-/* .stats-item {
-    border-right: 1px solid grey;
-} */
-
-
