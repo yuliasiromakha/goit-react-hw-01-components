@@ -1,10 +1,10 @@
 import React from 'react';
-import Profile from './profileCard';
+import Profile from './Profile';
 import Statistics from './Statistics';
 import TransactionHistory from './Transactions';
 import FriendList from './Friends';
 
-import user from './profileCard/user.json';
+import user from './Profile/user.json';
 import data from './Statistics/data.json';
 import friends from './Friends/friends.json';
 import transactions from './Transactions/transactions.json'

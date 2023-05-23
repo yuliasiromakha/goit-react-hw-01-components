@@ -21,6 +21,11 @@ const Statistics = ({ title, data }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
+  data: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  })
 };
 
 export default Statistics;
