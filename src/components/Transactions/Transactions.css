@@ -1,0 +1,47 @@
+.transaction-history {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center
+
+}
+
+.headLineNames {
+    background-color: deepskyblue;
+}
+
+.headlineValue {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.headlineValue  {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+th.headlineValue.type {
+    width: 139px;
+}
+
+th.headlineValue.amount {
+    width: 110px;
+}
+th.headlineValue.currency {
+    width: 127px;
+}
+
+.tableValue {
+    background-color: #fff;
+    padding: 15px 30px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey !important;
+  }
+
+.tableValue.type {
+    text-transform: capitalize;
+}

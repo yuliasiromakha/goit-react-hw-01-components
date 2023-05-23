@@ -1,7 +1,7 @@
 import React from 'react';
-import Profile from './profileCard/profileCard';
-import Statistics from './Statistics/Statistics';
-import TransactionHistory from './Transactions/Transactions';
+import Profile from './profileCard';
+import Statistics from './Statistics';
+import TransactionHistory from './Transactions';
 import FriendList from './Friends';
 
 import user from './profileCard/user.json';

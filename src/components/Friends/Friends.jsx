@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FriendListItem from './FriendsListItem';
+import './Friends.css'
 
 const FriendList = ({ friends }) => {
     console.log(friends);
   return (
-    <ul className="friend-list">
+    <section className='friend-section'>
+      <ul className="friend-list">
       {friends.map((friend) => (
         <FriendListItem
           key={friend.id}
@@ -15,6 +17,7 @@ const FriendList = ({ friends }) => {
         />
       ))}
     </ul>
+    </section>
   );
 };
 

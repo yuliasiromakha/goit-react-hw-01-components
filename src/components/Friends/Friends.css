@@ -1,0 +1,47 @@
+.friend-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+.friend-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.item-friends {
+    background-color: #fff;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    box-shadow: 1px 7px 10px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 7px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 7px 10px -1px rgba(0,0,0,0.75);
+}
+
+.avatar.friends {
+    margin-left: 0;
+    margin-right: 35px;
+    border-radius: 5px;
+}
+
+.status {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin-top: 48px;
+    margin-right: 20px;
+}
+
+.name.friends {
+    font-size: 24px;
+    margin-right: auto;
+}
